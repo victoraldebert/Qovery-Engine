@@ -1,0 +1,32 @@
+/* ///////CURSORS/////// */
+
+div.cursors div {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 20px;
+    height: 20px;
+    background-color: #686bbdc2;
+    z-index: 10000;
+    pointer-events: none;
+    transform: translate(-50%, -100%);
+}
+
+div.cursors div span {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 300px;
+
+    font-size: 15px;
+    line-height: 20px;
+    color: #b7b9e7;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+div.cursors div span.visible {
+    opacity: 1;
+}
+

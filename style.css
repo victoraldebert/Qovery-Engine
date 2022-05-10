@@ -130,6 +130,7 @@ section#sec-1 .right {
 }
 
 section#sec-1 .carre {
+    position: relative;
     width: 320px;
     height: 320px;
     background-color: #ffffff0c;
@@ -222,3 +223,24 @@ section#sec-1 .carre-bottom {
       
     }
 }
+
+.annotation {
+    position: absolute;
+    right: 0;
+    transform: translateX(145px) translateY(-30px);
+}
+
+.annotation-qovery {
+    top: 20%;
+}
+
+.annotation-cloud {
+    bottom: 25%;
+}
+
+.annotation-qovery span {
+    background-color: red;
+}
+
+
+

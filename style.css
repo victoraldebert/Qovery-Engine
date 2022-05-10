@@ -115,3 +115,110 @@ section#sec-1 .star-button .count {
     justify-content: center;
     align-items: center;
 }   
+
+
+/* ////////RIGHT SIDE/////// */
+
+
+section#sec-1 .right {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+section#sec-1 .carre {
+    width: 320px;
+    height: 320px;
+    background-color: #ffffff0c;
+    transform: rotateX(55deg) rotateZ(45deg);
+    padding: 10px
+}
+
+section#sec-1 .carre .row {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+section#sec-1 .carre .mini-carre {
+    height: 90%;
+    width: 45%;
+    background-color: #294a8c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#sec-1 .carre .mini-carre img {
+    /* transform: rotateZ(deg); */
+}
+
+
+section#sec-1 .carre-top .carre-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #686bbdc2;
+    height: 95%;
+    width: 95%;
+}
+
+section#sec-1 .carre-top .carre-bg img {
+    transform: rotateZ(315deg);
+
+}
+
+section#sec-1 .carre-top {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    opacity: 0;
+    animation: hamburger-top 3s ease-in-out forwards;
+
+}
+
+
+section#sec-1 .carre-mid {
+    position: absolute;
+    z-index: 1;
+}
+
+section#sec-1 .carre-bottom {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    animation: hamburger-bottom 3s ease-in-out forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes hamburger-top {
+    from {
+        opacity: 0;
+        transform: translateY(0%) rotateX(55deg) rotateZ(45deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-65%) rotateX(55deg) rotateZ(45deg);
+      
+    }
+}
+
+@keyframes hamburger-bottom {
+    from {
+        opacity: 0;
+        transform: translateY(0%) rotateX(55deg) rotateZ(45deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(65%) rotateX(55deg) rotateZ(45deg);
+      
+    }
+}

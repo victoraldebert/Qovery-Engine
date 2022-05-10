@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    width: 1120px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+section#sec-1 {
+    height: 85vh;
+    background-color: #151B2B;
+    color: white;
+}
+
+section#sec-1 .container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* //////////LEFT SIDE//////// */
+
+section#sec-1 .title {
+    display: flex;
+    align-items: center;
+}
+
+
+section#sec-1 h1 {
+    font-size: 46px;
+    margin-right: 25px;
+}
+
+section#sec-1 h2 {
+    font-size: 25px;
+    max-width: 450px;
+    margin: 40px 0;
+    font-weight: 500;
+}
+
+section#sec-1 p {
+    font-size: 16px;
+    color: #8686B2;
+    max-width: 450px;
+    padding-left: 7px;
+}
+
+section#sec-1 .row-button {
+    margin-top: 60px;
+    display: flex;
+}
+
+section#sec-1 .row-button button {
+    border: none;
+    padding: 10px 11px;
+    border-radius: 3px;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+section#sec-1 .row-button button i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+
+section#sec-1 .row-button button:nth-child(1) {
+    background-color: #454658;
+    margin-right: 25px;
+}
+
+section#sec-1 .row-button button:nth-child(2) {
+    background-color: #6578C0;
+}
+
+section#sec-1 .star-button {
+    display: flex;
+    height: 30px;
+    background-color: white;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 9px;
+
+}   
+
+section#sec-1 .star-button .star {
+    color: black;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+section#sec-1 .star-button .star i {
+    margin-right: 5px;
+} 
+
+section#sec-1 .star-button .count {
+    color: black;
+    width: 35px;
+    border-left: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   

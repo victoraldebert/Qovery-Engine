@@ -291,3 +291,11 @@ section#sec-1 .carre-bottom {
     margin: 0px 24px;
 
 }
+
+#sec-2 .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}

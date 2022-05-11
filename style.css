@@ -82,7 +82,8 @@ section#sec-1 .row-button button:nth-child(1) {
 }
 
 section#sec-1 .row-button button:nth-child(2) {
-    background-color: #6578C0;
+    /* background-color: #6578C0; */
+    background-color: #686bbdc2;
 }
 
 section#sec-1 .star-button {

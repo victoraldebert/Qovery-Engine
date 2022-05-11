@@ -6,15 +6,30 @@
 }
 
 .container {
+    position: relative;
     width: 1120px;
     height: 100%;
     margin: 0 auto;
 }
 
+.container-small {
+    position: relative;
+    width: 855px;
+    height: 100%;
+    margin: 0 auto;
+}
+
 section#sec-1 {
+    position: relative;
     height: 85vh;
     background-color: #151B2B;
     color: white;
+}
+
+section#sec-1 .logo {
+    position: absolute;
+    left: 0;
+    top: 40px;
 }
 
 section#sec-1 .container {
@@ -26,6 +41,11 @@ section#sec-1 .container {
 
 
 /* //////////LEFT SIDE//////// */
+
+section#sec-1 .left {
+    width: 50%;
+}
+
 
 section#sec-1 .title {
     display: flex;
@@ -127,7 +147,7 @@ section#sec-1 .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 section#sec-1 .carre {
@@ -244,4 +264,30 @@ section#sec-1 .carre-bottom {
 }
 
 
+/* ////////SECTION 2////// */
 
+#sec-2 .container-small {
+    padding: 100px 0;
+}
+
+#sec-2 .intro-content {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#sec-2 .intro-content h1 {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 110%;
+    color: #454658;
+    margin-bottom: 35px;
+}
+
+#sec-2 .intro-content p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #454658;
+    margin: 0px 24px;
+
+}

@@ -4,10 +4,10 @@ div.cursors div {
     position: absolute;
     top: 300px;
     left: 300px;
-    width: 28px;
-    height: 28px;
-    background-color: #686bbdc2;
-    
+    width: 26px;
+    height: 26px;
+    border: 3px solid #686bbdc2;
+    box-sizing: border-box;
     z-index: 10000;
     pointer-events: none;
     transform: translate(-50%, -100%);
@@ -26,6 +26,7 @@ div.cursors div span {
 
     opacity: 0;
     transition: opacity 0.5s;
+    
 }
 
 div.cursors div span.visible {

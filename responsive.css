@@ -107,3 +107,22 @@
     }
 }
 
+
+@media screen and (max-width: 922px) {
+    #sec-3 .carbon-code-img {   
+        width: 700px;
+    }
+}
+
+
+@media screen and (max-width: 811px) {
+    #sec-3 .carbon-code-img {   
+        width: 500px;
+    }    
+}
+
+@media screen and (max-width: 711px) {
+    #sec-3 .carbon-code-img {   
+        width: 300px;
+    }    
+}

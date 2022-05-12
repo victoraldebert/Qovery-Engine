@@ -353,3 +353,48 @@ section#sec-3 .row-button {
     align-items: center;
     margin-bottom: 100px;
 }
+
+/* ///////SECTION 4/////// */
+
+section#sec-4 .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px ;
+}
+
+section#sec-4 .bloc {
+    max-width: 428px;
+}
+
+section#sec-4 h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #454658;
+    margin-top: 17px;
+}
+
+section#sec-4 p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #454658;
+    margin: 30px 0 20px 0;
+}
+
+section#sec-4 a {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 130%;
+    color: #5D64D2;
+}
+
+/* ///////FOOTER///// */
+
+footer {
+    margin-top: 150px;
+    height: 150px;
+    background-color: #151b2b;
+}

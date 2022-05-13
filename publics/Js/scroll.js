@@ -8,13 +8,21 @@ sr.reveal('.image-wrapper', {
     duration: 2500  
 });    
 
-sr.reveal('.carbon-code', {
+sr.reveal('.carbon-code-img', {
     origin: 'bottom',
     distance: '50px',
     scale: 0.87,
     reset: true,
     duration: 2500  
-});    
+});   
+
+sr.reveal('.carbon-bg-img', {
+    origin: 'top',
+    distance: '50px',
+    scale: 0.87,
+    reset: true,
+    duration: 2500  
+});
 
 sr.reveal('.scroll-1', {
     origin: 'left',
